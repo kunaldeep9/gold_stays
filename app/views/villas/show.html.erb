@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @villa.name %>
+</p>
+
+<p>
+  <strong>Amount:</strong>
+  <%= @villa.amount %>
+</p>
+
+<p>
+  <strong>Location:</strong>
+  <%= @villa.location %>
+</p>
+
+<%= link_to 'Edit', edit_villa_path(@villa) %> |
+<%= link_to 'Back', villas_path %>
